@@ -43,16 +43,16 @@ Salary = st.number_input('EstimatedSalary')
 #Prepare the INput data
 
 input_data = pd.DataFrame({
-'CreditScore' = [credit_score],
-'Geography' = [Geography],
-'Gender' = [label_encoder_gender.transform([Gender])[0]],
-'Age' = [Age],
-'Tenure' = [Tenure],
-'Balance' = [Balance],
-'No_of_products' = [No_of_products],
-'Has_cr_card' = [Has_cr_card],
-'Active_Member' = [Active_Member],
-'Salary' = [Salary]
+CreditScore = [credit_score],
+Geography = [Geography],
+Gender = [label_encoder_gender.transform([Gender])[0]],
+Age = [Age],
+Tenure = [Tenure],
+Balance = [Balance],
+No_of_products = [No_of_products],
+Has_cr_card = [Has_cr_card],
+Active_Member = [Active_Member],
+Salary = [Salary]
   
 })
 
